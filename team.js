@@ -1,5 +1,4 @@
-const arr = [
-    {
+const arr = [{
  name : "Umberto",
  surname : "Di Nocera",
  age : 21,
@@ -10,9 +9,7 @@ const arr = [
  favoriteFilm : "La vita è bella",
  favoriteBook :  "Steve Jobs",
  petName : "Baby",
-},
-
-{
+},{
     name:"Denis",
     surname:"Bruno",
     age:21,
@@ -23,8 +20,7 @@ const arr = [
     favoriteFilm:"Inception",
     favoriteBook:"Uno, Nessuno e Centomila",
     petName:" "
-    },
-{
+},{
     name:"marco",
     surname:"bruno",
     age: 23 ,
@@ -35,8 +31,7 @@ const arr = [
    favoriteBook: "harry potter",
    favoriteFilm: "inception",
    petName: ""
-},
-{
+},{
     name: "Massimo",
     surname: "Rabuffo",
     age: "26",
