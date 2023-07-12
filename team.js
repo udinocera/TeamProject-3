@@ -48,9 +48,10 @@ const arr = [{
 function printPetName(petName){
     for (let i = 0; i < petName.length; i++)
     {
-        console.log(petName[i]);
+       if(arr[i].petName!==""){
+        console.log(arr[i].petName)
+       }
     }
 }
 
-let petOwners = ["Chloe", "Baby"]
-printPetName(petOwners);
+printPetName(arr)
