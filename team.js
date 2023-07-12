@@ -34,7 +34,7 @@ const arr = [{
 },{
     name: "Massimo",
     surname: "Rabuffo",
-    age: "26",
+    age: 26,
     city:"Caserta",
     hobby: "web developer",
     favouriteFood: "Pizza",
@@ -43,3 +43,14 @@ const arr = [{
     favouriteBook:"La strada",
     petName:"Chloe",
 }];
+
+
+function printPetName(petName){
+    for (let i = 0; i < petName.length; i++)
+    {
+        console.log(petName[i]);
+    }
+}
+
+let petOwners = ["Chloe", "Baby"]
+printPetName(petOwners);
