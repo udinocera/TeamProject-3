@@ -1,12 +1,11 @@
-const arr = [{
-    name:"marco",
-    surname:"bruno",
-    age: 23 ,
-    city: "napoli",
-    hobby: "gym",
-   favotiteFood: "pizza",
-   favoriteVideoGames:" fifa",
-   favoriteBook: "harry potter",
-   favoriteFilm: "inception",
-   petName: ""
-}];
+
+
+
+function stampaNomeVideogiocoPreferito(arr) {
+    if (arr.favoriteVideoGame === "LOL") {
+      console.log("Il tuo videogioco preferito è LOL!");
+    } else {
+      console.log("Il tuo videogioco preferito non è LOL.");
+    }
+}  
+stampaNomeVideogiocoPreferito(arr)
