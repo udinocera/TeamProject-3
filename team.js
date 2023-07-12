@@ -1,12 +1,13 @@
-const arr = [{
-    name: "Massimo",
-    surname: "Rabuffo",
-    age: "26",
-    city:"Caserta",
-    hobby: "web developer",
-    favouriteFood: "Pizza",
-    favouriteVideogame: "The last of us",
-    favouriteFilm:"interstellar",
-    favouriteBook:"La strada",
-    petName:"Chloe",
-}];
+function findMiddleAge (array) {
+    let numberOfObject = 0;
+    let middleAge = 0
+    let sum = 0;
+    for(let i = 0; i < array.length; i++) {
+       sum += array[i].age;
+       numberOfObject++;
+    };
+    middleAge = sum/numberOfObject;
+    return middleAge;
+};
+
+console.log(findMiddleAge(arr));
