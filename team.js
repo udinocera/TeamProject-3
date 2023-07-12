@@ -10,4 +10,5 @@ const arr = [
  favoriteFilm : "La vita è bella",
  favoriteBook :  "Steve Jobs",
  petName : "Baby",
-}];
+}]
+
