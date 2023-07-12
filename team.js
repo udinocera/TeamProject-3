@@ -10,7 +10,7 @@ const arr = [
  favoriteFilm : "La vita è bella",
  favoriteBook :  "Steve Jobs",
  petName : "Baby",
-}
+},
 
 {
     name:"Denis",
@@ -23,4 +23,16 @@ const arr = [
     favoriteFilm:"Inception",
     favoriteBook:"Uno, Nessuno e Centomila",
     petName:" "
-    }]
+    },
+{
+    name:"marco",
+    surname:"bruno",
+    age: 23 ,
+    city: "napoli",
+    hobby: "gym",
+   favotiteFood: "pizza",
+   favoriteVideoGames:" fifa",
+   favoriteBook: "harry potter",
+   favoriteFilm: "inception",
+   petName: ""
+}];
