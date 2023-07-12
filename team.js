@@ -44,7 +44,6 @@ const arr = [{
     petName:"Chloe",
 }];
 
-
 function printPetName(petName){
     for (let i = 0; i < petName.length; i++)
     {
